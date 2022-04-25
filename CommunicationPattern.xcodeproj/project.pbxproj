@@ -14,6 +14,8 @@
 		EFF8372F28170BA100F624DB /* CommunicationPattern.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFF8372D28170BA100F624DB /* CommunicationPattern.xcdatamodeld */; };
 		EFF8373128170BA900F624DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF8373028170BA900F624DB /* Assets.xcassets */; };
 		EFF8373428170BA900F624DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF8373228170BA900F624DB /* LaunchScreen.storyboard */; };
+		EFF8373C28170C0F00F624DB /* Delegate_Protocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8373B28170C0F00F624DB /* Delegate_Protocal.swift */; };
+		EFF8373E28170DFC00F624DB /* secondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF8373D28170DFC00F624DB /* secondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		EFF8373028170BA900F624DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFF8373328170BA900F624DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFF8373528170BA900F624DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF8373B28170C0F00F624DB /* Delegate_Protocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate_Protocal.swift; sourceTree = "<group>"; };
+		EFF8373D28170DFC00F624DB /* secondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,9 @@
 				EFF8372428170BA100F624DB /* AppDelegate.swift */,
 				EFF8372628170BA100F624DB /* SceneDelegate.swift */,
 				EFF8372828170BA100F624DB /* ViewController.swift */,
+				EFF8373B28170C0F00F624DB /* Delegate_Protocal.swift */,
 				EFF8372A28170BA100F624DB /* Main.storyboard */,
+				EFF8373D28170DFC00F624DB /* secondVC.swift */,
 				EFF8373028170BA900F624DB /* Assets.xcassets */,
 				EFF8373228170BA900F624DB /* LaunchScreen.storyboard */,
 				EFF8373528170BA900F624DB /* Info.plist */,
@@ -141,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF8373E28170DFC00F624DB /* secondVC.swift in Sources */,
+				EFF8373C28170C0F00F624DB /* Delegate_Protocal.swift in Sources */,
 				EFF8372928170BA100F624DB /* ViewController.swift in Sources */,
 				EFF8372528170BA100F624DB /* AppDelegate.swift in Sources */,
 				EFF8372728170BA100F624DB /* SceneDelegate.swift in Sources */,
